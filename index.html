@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <header>
+      <div class="overlay"></div>
+      <nav>
+        <h2>SHOP</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="cart">
+            <a href="cart.html">
+              <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div>
+        <div class="image">
+          <img src="images/blackhoodie.jpg" alt="thsirt1" />
+          <h3>Black Hoodie</h3>
+          <h3>$15,00</h3>
+          <a class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div>
+          <i
+            id="pic1"
+            onclick="changeColor(this)"
+            class="fa-solid fa-heart"
+          ></i>
+        </div>
+      </div>
+      <div>
+        <div class="image">
+          <img src="images/greigeshirt.jpg" alt="thsirt1" />
+          <h3>Greige Shirt</h3>
+          <h3>$20,00</h3>
+          <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div>
+          <i
+            id="pic2"
+            onclick="changeColor(this)"
+            class="fa-solid fa-heart"
+          ></i>
+        </div>
+      </div>
+      <div>
+        <div class="image">
+          <img src="images/blueshirt.jpg" alt="thsirt1" />
+          <h3>Blue Shirt</h3>
+          <h3>$10,00</h3>
+          <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div>
+          <i
+            id="pic3"
+            onclick="changeColor(this)"
+            class="fa-solid fa-heart"
+          ></i>
+        </div>
+      </div>
+      <div>
+        <div class="image">
+          <img src="images/lightbluehoodie.jpg" alt="thsirt1" />
+          <h3>Light Blue Hoodie</h3>
+          <h3>$25,00</h3>
+          <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div>
+          <i
+            id="pic4"
+            onclick="changeColor(this)"
+            class="fa-solid fa-heart"
+          ></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
